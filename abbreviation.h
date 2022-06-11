@@ -1,15 +1,20 @@
-#ifdef o 
-#define o OUTPUT
-#endif
+#ifndef abbreviation
+  #define abbreviation 
+  
+  #ifndef o 
+  #define o OUTPUT
+  #endif
 
-#ifdef i 
-#define i INPUT
-#endif
+  #ifndef i 
+  #define i INPUT
+  #endif
 
-#ifdef h 
-#define h HIGH
-#endif
+  #ifndef h 
+  #define h HIGH
+  #endif
 
-#ifdef l 
-#define l LOW
+  #ifndef l 
+  #define l LOW
+  #endif
+
 #endif
