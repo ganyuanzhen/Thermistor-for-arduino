@@ -1,4 +1,4 @@
-#include "thermistor.h"
+#include "Thermistor.h"
 
 Thermistor thermo(A0, 3950);
 
